@@ -20,8 +20,24 @@ header {
 	background-position: 20% 20%;
 }
 
-blockquote {
-	
+header h1 {
+	color: #734f2f;
+	font-size: 7em;
+	text-shadow: 1px 1px 2px #e4f2ea;
+	text-align: center;
+}
+
+/* Issue with header h3 */
+
+header h3 {
+	color: #e4f2ea;
+	font-size: 3em;
+	text-align: center;
+	text-shadow: 4px 4px 8px #734f2f;
+}
+
+nav ul {
+	margin-bottom: 25px;
 }
 
 .hNav {
@@ -40,7 +56,6 @@ blockquote {
 	display: inline-block;
 	list-style: none;
 	width: 15%;
-	background-color: red;
 	margin-top: 2%;
 }
 
@@ -50,17 +65,95 @@ blockquote {
 	font-size: 1.5em;	
 }
 
-h1 {
-	
+main {
+	width: 100%;
+	min-height: 500px;
 }
 
-h2 {
-
+#container {
+	padding: 2% 0;
+	margin: 0 auto;
+	width: 80%;
+	min-height: 500px;
+	font-size: 1.8em;
+	color: #734f2f;
+	/* background-color: red;*/
 }
 
+#container img {
+	float: left;
+	padding-right: 2%;
+}
+
+blockquote {
+	float: right;
+	margin-right: 200px;
+}
+
+#container p {
+	margin-top: 4%;
+	font-size: .6em; 
+	padding: 0;
+}
+
+form {
+	width: 30%;
+	margin-top: 1%;
+	margin-left: 59%; /* T R B L */
+	border: 10px #734f2f solid;
+	color: #e4f2ea;
+	background-color: #11181e;
+	padding: 50px 50px 1px 50px; /* T R B L */
+	font-size: 0.75em;
+}
+
+#special {
+	font-size: 0.9;
+	text-align: right;
+	margin-right: 7.5%;
+}
+
+input {
+	font-size: 0.75em; 
+	border-radius: 5px;
+	background-color: #e4f2ea;
+}
+
+input[type=text] {
+	width: 70%;
+}
+		
+input[type=email] {
+	width: 98%;
+}
+
+input[type=submit] {
+	background-color: red;
+	color: #e4f2ea; 
+	padding: 3%;
+	margin: 10%;
+}
+
+input[type=submit]:hover {
+	background-color: green;
+	color: #e4f2ea;	
+	padding: 3%;
+}
+input[type=reset] {
+	font-family: 'Merriweather', serif;
+	background-color: #e4f2ea;
+	color: #11181e;
+	padding: 3%;
+}
+
+input[type=reset]:hover {
+	background-color: orange;
+	color: black;
+	padding: 3%;
+}
 .fNav {
-	padding: 50px 5px;
-	margin-top: 45%;
+	padding-bottom: 5px;
+	margin-top: 3%;
 	width: 100%;
 	background-color: #11181e;
 	min-height: 50px;
@@ -84,14 +177,29 @@ h2 {
 	font-size: 1.5em;	
 }
 
-.fNav a:hover {
+nav a:hover {
 	color: red;
 }
 
-h4, h5 {
-	text-align: center;
+footer {
+	background-color: #734f2f;
 }
+
 
 table {
 	
+}
+
+footer h4, footer h5, footer h6 {
+	padding: 1%;
+}
+
+footer h5, footer h4 {
+	text-align: center;
+}
+
+footer h6 {
+	font-size: 1em;
+	text-align: left;
+	margin: 0px 300px 0px 300px; /* TRBL */
 }
