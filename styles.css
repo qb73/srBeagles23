@@ -1,0 +1,237 @@
+
+/* Color Selection
+Olive-Green: #626959
+Bright Red: #e23c30
+Dark Gray: #4c504e
+Light Gray: #a0a5a3
+White: #FFFFFF
+*/
+
+
+/* Font Selection
+font-family: 'Aboreto', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Karma', serif;
+font-family: 'Sarabun', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Karma:wght@400;700&family=Sarabun:wght@400;800&display=swap');
+
+
+/******************* CSS Reset ********************/
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+
+/******************** Box Model ********************/
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+
+
+#home {
+	background: url('../images/falklandsWar.webp');
+		
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	backgrorund-size: cover;
+}
+
+#background {
+	background-color: #4c504e; /* Dark Gray */
+}
+
+/***************** End of Box Model *****************/
+
+
+/**************************** Header Styles ***************************/
+
+header {
+	background-color: #e23c3099; /* Bright Red */
+	padding: 10px 50px 0px 50px; /* TRBL */
+}
+
+#header2 {
+	background-color: #e23c30; /* Bright Red */
+	padding: 10px 50px 0px 50px;
+}
+
+h1 {
+	text-align: center;
+}
+
+#name {
+	color: #FFFFFF99; /* White */
+	margin-right: 20px;
+	text-align: center;
+	text-shadow: #e23c30 5px 0 15px; /* Bright Red */
+	font-family: 'Bebas Neue', cursive;
+	font-size: 7em;
+}
+
+#name2 {
+	color: #FFFFFF; /* White */
+	font-family: 'Bebas Neue', cursive;
+	font-size: 5em;
+}
+
+#name2:hover {
+	color: #a0a5a3;
+}
+
+#header2, #name2, #myResume {
+	background-color: #e23c30; /* Bright Red */
+}
+
+/**************************** End of Header Styles *********************/
+
+
+/**************************** Main Styles ******************************/
+
+main {
+	background-color: #e23c3099; /* Bright Red */
+}
+
+#page2 {
+	background-color: #4c504e; /* Dark Gray */
+}
+
+#resume {
+	color: #FFFFFF; /* White */
+}
+
+.resume:hover {
+	color: #a0a5a3; /* Light Gray */
+}
+
+#myResume {
+	background-color: #e23c30;
+	padding: 2%;
+	text-align: center;
+}
+#myResume h2, #myResume h3 {
+	padding: 1%;
+}
+
+#experience, #education, #skills, #references {
+	background-color: #626959; /* Olive Green */
+	padding: 2%;
+	border: 10px #4c504e solid; /* Dark Grey */
+	border-radius: 25px;
+	
+}
+
+#myResume h2, #experience h2, #education h2, #skills h2, #references h2 {
+	font-family: 'Aboreto', cursive;
+}
+
+myResume h3, #experience h3, #education h3, #skills h3, #references h3 {
+	font-family: 'Karma', serif;
+}
+
+#skills ul li {
+	font-size: 1.25em;
+}
+
+#references a {
+	color: #FFFFFF /* White */
+}
+
+#references a:hover {
+	color: #a0a5a3; /* Light Gray */
+}
+
+ul li {
+	color: #FFFFFF;
+}
+
+h3, h2, p {
+	color: #FFFFFF; /* White */
+}
+
+p {
+	margin: 0% 17%; /* TRBL */
+	text-align: left;
+	font-size: 1.35em;
+	font-family: 'Sarabun', sans-serif;
+}
+
+.opener {
+	padding: 100px 0px;
+}
+
+.opener h2 {
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Aboreto', cursive;
+}
+
+.opener img {
+	padding: 0px;
+	margin-left: 36%;
+	margin-bottom: 65px;
+}
+
+#grid {
+	text-align: center;
+}
+
+#grid section {
+	padding: 2%;
+}
+
+/**************************** End of Main Styles ***********************/
+
+
+/**************************** Footer Styles ****************************/
+
+footer {
+	background-color: #4c504e; /* Dark Gray */
+	padding: 40px 50px;
+	font-family: 'Karma', serif;
+}
+
+#back {
+	color: #FFFFFF; /* White */	
+}
+
+#back:hover {
+	color: #a0a5a3; /* White */	
+}
+
+footer p a {
+	padding: 10px;
+}
+
+footer p {
+	text-align: center;
+}
+
+footer a {
+	color: #FFFFFF; /* White */
+	
+}
+
+footer a:hover {
+	color: #a0a5a3 /* Light Gray */
+}
+
+footer h4 {
+	padding-top: 25px;
+	color: #FFFFFF; /* White */
+	text-align: center;
+}
+
+/**************************** End of Footer Styles *********************/
